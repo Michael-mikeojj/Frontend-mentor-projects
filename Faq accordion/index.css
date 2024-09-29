@@ -88,6 +88,7 @@ h1 {
     display: none;
 }
 
+/* mobile screen width */
 @media (max-width: 600px) {
     #background-pattern-img {
         content: url(./assets/images/background-pattern-mobile.svg);
