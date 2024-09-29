@@ -6,13 +6,13 @@ faqToggleBtn.forEach((button, index) => {
         if (button.value === "open") {
             faqAnswer[index].classList.toggle("hidden");
             button.innerHTML = `
-                <img src="./assets/images/icon-plus.svg" class="btn-img">
+                <img src="./assets/images/icon-plus.svg" class="btn-img" alt="button">
             `;
-            button.value = "close";
+            button.value = "closed";
         } else if (button.value === "closed") {
             faqAnswer[index].classList.toggle("hidden");
             button.innerHTML =`
-                <img src="./assets/images/icon-minus.svg" class="btn-img">
+                <img src="./assets/images/icon-minus.svg" class="btn-img" alt="button">
             `;
             button.value = "open"
         };
